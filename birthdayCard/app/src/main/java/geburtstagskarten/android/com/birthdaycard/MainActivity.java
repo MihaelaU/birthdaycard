@@ -1,4 +1,4 @@
-package birthdaycard.android.com.birthdaycard;
+package geburtstagskarten.android.com.birthdaycard;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

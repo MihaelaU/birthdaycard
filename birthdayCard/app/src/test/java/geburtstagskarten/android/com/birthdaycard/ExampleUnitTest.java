@@ -1,4 +1,4 @@
-package birthdaycard.android.com.birthdaycard;
+package geburtstagskarten.android.com.birthdaycard;
 
 import org.junit.Test;
 
