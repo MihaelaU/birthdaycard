@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="birthdaycard.android.com.birthdaycard.MainActivity">
+    tools:context="geburtstagskarten.android.com.birthdaycard.MainActivity">
 
     <ImageView
         android:id="@+id/image"
@@ -17,7 +17,7 @@
         android:accessibilityLiveRegion="@android:integer/config_longAnimTime"
         android:accessibilityTraversalAfter="@+id/textView"
         android:accessibilityTraversalBefore="@+id/textView1"
-        android:contentDescription="@string/app_name" />
+        android:contentDescription="@string/geburtstagskarten" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -34,21 +34,21 @@
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/image"
         android:textStyle="normal|bold"
-        android:contentDescription="@string/app_name" />
+        android:contentDescription="@string/geburtstagskarten"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/textView2"
         android:text="Miha"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:typeface="serif"
         android:fontFamily="cursive"
         android:textStyle="normal|bold|italic"
         android:textColor="#2196F3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
         android:textSize="36sp"
-        android:lineSpacingExtra="14sp"
         android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
