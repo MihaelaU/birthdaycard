@@ -17,14 +17,14 @@
         android:accessibilityLiveRegion="@android:integer/config_longAnimTime"
         android:accessibilityTraversalAfter="@+id/textView"
         android:accessibilityTraversalBefore="@+id/textView1"
-        android:contentDescription="@string/geburtstagskarten" />
+        android:contentDescription="@string/Card" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:padding="10dp"
-        android:text="Glückwünsche zum Geburtstag!"
+        android:text="@string/Message"
         android:id="@+id/textView1"
         android:textColor="#7B1FA2"
         android:textAlignment="center"
@@ -34,13 +34,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/image"
         android:textStyle="normal|bold"
-        android:contentDescription="@string/geburtstagskarten"
+        android:contentDescription="@string/Card"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/textView2"
-        android:text="Miha"
+        android:text="@string/Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:typeface="serif"
