@@ -1,0 +1,5 @@
+<resources>
+<string name="Card" translatable="false">Birthday Card</string>
+<string name="Message" translatable="false">Happy birthday!</string>
+<string name="Name" translatable="false">Miha</string>
+</resources>
